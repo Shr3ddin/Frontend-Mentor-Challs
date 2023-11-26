@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: hsl(212, 45%, 89%);
+}
+
+main {
+	min-height: 100vh;
+	
+}
+
+.card-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.qr-card {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: hsl(0, 0%, 100%);
+	width: 315px;
+	height: 50em;
+	margin: 2em;
+	border-radius: 1.5em;
+}
+
+.qr-title {
+	font-size: 2rem;
+	padding: 0.5em 1em;
+	color: hsl(218, 44%, 22%)
+}
+
+.qr-text {
+	font-size: 1.5rem;
+	padding: 0.5em 1.5em;
+	color: hsl(218, 44%, 22%)
+}
+
+.qr-img {
+	position: relative;
+	padding: 1.5em
+}
+
+img {
+	width: 100%;
+	border-radius: 1.5em;
+}
+
+.attribution {
+	position: absolute;
+	width: 100%;
+	bottom: 5px;
+	text-align: center;
+}
